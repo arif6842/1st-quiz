@@ -1,0 +1,71 @@
+/* for mobile responsive */
+@media only screen and (max-width: 576px) {
+    body {
+      background-color: lightblue;
+    }
+    .home-page{
+        background: rgb(189, 13, 13);
+        border: 2px solid black;
+        height: 400px;
+        width: 350px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    .quiz-txt{
+        padding-top: 30%;
+    }
+    .button{
+        text-decoration: none;
+        border: 2px solid black;
+        font-size: 15px;
+        padding: 10px;
+        margin: 10px;
+        background: white;
+        color: black;
+    }
+    /* othres page responsive start here */
+    .second-page{
+        background: black;
+        border: 2px solid black;
+        height: 400px;
+        width: 350px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+    
+    
+    }
+    .input-field{
+        padding-top: 30%;
+        padding-right: 0%;
+    }
+    .name-field{
+        font-size: 15px;
+        margin-left: 5px;
+        color: white;
+        background: black;
+    }
+    .iput-border{
+        margin-left: 6px;
+        width: 300px;
+    }
+    .button-2{
+        margin-right: 165px;
+        border: 1px solid white;
+        padding: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        background: white;
+        color: black;
+        text-decoration: none;
+    }
+    
+    
+  }
